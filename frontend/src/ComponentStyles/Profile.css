@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Global styles */
+body {
+    font-family: sans-serif;
+    background-color: #a9e9f1; /* Light gray background */
+  }
+  
+  /* Container styling */
+  .profile {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Profile header */
+  .images {
+    text-align: center;
+  }
+  
+  .images img {
+    padding: 20px;
+    border-radius: 50%; /* Round profile image */
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+  }
+
+ 
+  .real {
+    background-color: #f7931a; /* Orange color */
+    color: black black;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  /* Personal details */
+  .text {
+    color: black;
+    font-weight: bold; /* Make all text bold */
+    margin-bottom: 5px;
+  }
+  
+  /* Buttons */
+ 
+  button.real:hover {
+    background-color: #f57c00; /* Darker orange on hover */
+  }
+
+  /* Cards */
+  .card {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .box {
+    width: calc(25% - 10px); /* Calculate individual box width */
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  .box img {
+    border-radius: 20px; /* Round image corners */
+    margin-bottom: 10px;
+  }
+  
+  /* Animation (replace with your preferred animation library) */
+  /*
+  .box {
+    animation: move 3s infinite ease-in-out;
+  }
+  
+  @keyframes move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+  */
+  
+  /* Replace with your preferred animation code */
+  
+  /* Make all text in buttons black */
+button {
+    color: black;
+  }
+  
+  /* Center the "Edit Profile" button */
+  .profile button {
+    display: block; /* Make it a block element */
+    margin: 0 auto; /* Center horizontally */
+  }
+
+  .text3, .text4 {
+    margin-bottom: 20px; /* Adjust spacing as needed */
+  }
+  
+  /* Center user data */
+  .profile {
+    text-align: center;
+  }
+  
+  .text {
+    text-align: center;
+  }
+  
+  /* Optionally, center buttons too */
+  .profile button,
+  .text3 button,
+  .text4 button {
+    display: block;
+    margin: 0 auto;
+  }

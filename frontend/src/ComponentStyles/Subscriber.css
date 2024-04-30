@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.subscriber{
+    margin-left: 0%;
+    margin-right: 0%;
+    object-fit: cover;
+    background-color: #c8d0e2;
+}
+
+.number{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.star{
+    height: 20px;
+    width: 20px;
+}
+
+.images{
+    height: 200%;
+    width: 100%;
+    display: flex;
+    padding-left: 650px;
+    padding-top: 50px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.images img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.profile{ 
+    margin-left: 850px;
+    padding: 5px 20px;
+    border: 1px solid hsla(0, 0%, 100%, .6);
+    font-weight: 600px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.text{
+    margin-left: 650px;
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text1{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 2px;
+    font-weight: 300px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 680px;
+}
+
+.txt2{
+    font-size: 16px;    
+    margin-top: 2px;
+    font-weight: 300px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 100px;
+}
+
+.txt3{
+    font-size: 16px;    
+    margin-top: 2px;
+    font-weight: 300px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 1300px;
+}
+
+.card{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.box{
+    padding: 10px;
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+.menu{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+}
+
+.txt5{
+    font-size: 16px; 
+    text-align: left;   
+    margin-top: 14px;
+    font-weight: 300px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 100px;
+}
+
+.txt6, .txt7{
+    margin-left: 350px; 
+    padding: 10px 20px;  
+    border: 1px solid hsla(0, 0%, 100%, .6);
+    font-weight: 600px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    background-color: #ffa60094;
+    font-family: "Montserrat", sans-serif;
+}

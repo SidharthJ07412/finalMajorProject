@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* body{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-top: 5%;
+    margin-bottom: 2%; */
+  background-image: repeating-linear-gradient(60deg, #bbacedc1, #faaca8de);
+  min-height: 100vh;
+}
+
+.container .loginbox {
+  width: 500px;
+  min-height: 400px;
+  /* background: #FFF; */
+  /* border-radius: 5px; 
+    box-shadow: 0 0 5px rgb(0, 0, 1); */
+  padding: 40px 30px;
+}
+
+.container .logintext {
+  color: #111;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.container .loginsocial {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  margin-bottom: 25px;
+}
+
+.container .loginsocial a {
+  padding: 12px;
+  margin: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.container .loginsocial a.facebook {
+  background: #ffffff;
+}
+
+.container .loginsocial a.twitter {
+  background: #ffffff;
+}
+
+.container .loginsocial a.google {
+  background: #ffffff;
+}
+
+.container .loginsocial a.linkedin {
+  background: #ffffff;
+}
+
+.container .loginsocial a.facebook:hover {
+  background: #8498c0;
+}
+
+.container .loginsocial a.twitter:hover {
+  background: #63a3cb;
+}
+
+.container .loginsocial a.google:hover {
+  background: #59b1d1;
+}
+
+.container .loginsocial a.linkedin:hover {
+  background: #4f7aa6;
+}
+
+.container .loginemail .inputgroup input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e7e7e7;
+  padding: 15px 20px;
+  font-size: 0.9rem;
+  border-radius: 30px;
+  background: transparent;
+  outline: none;
+}
+
+.container .loginemail .inputgroup {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 15px;
+}
+
+
+input::placeholder {
+  opacity: 0.5;
+  color: black;
+  font-size: 0.8rem;
+}
+
+
+.container .loginemail .inputgroup input:focus,
+.container .login-email .input-group input:valid {
+  border-color: #a29bfe;
+}
+
+.container .loginemail .inputgroup .btn {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  background: #d19c97;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.bigBox {
+  background-color: #90d1f9;
+  padding: 10px;
+}
+
+.container .loginemail .inputgroup .btn:hover {
+  transform: translateY(-5px);
+  background: #cd817a;
+}
+
+@media (max-width: 430px) {
+  .container {
+    /* width: 180px; */
+  }
+
+  .container .loginsocial {
+    display: block;
+  }
+
+  .container .loginsocial a {
+    display: block;
+  }
+}

@@ -1,0 +1,7 @@
+Select * from Mess
+Mess table
+
+mess_id	mess_address	subscription_price	phone_num	rating	tiffin_details	mess_owner_id
+1	malwa mill mess ak	3000	8823019288	4	dalchawal aloo sabji	3
+2	malwa mill mess hp	3000	8823019289	3	dalchawal sabji	4
+3	patli gali katilana nazar	4000	8823019279	5	dalcawala sabji rooti	7

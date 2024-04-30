@@ -1,0 +1,13 @@
+-- users table
+user_id	fname	lname	phone_num	email	password	user_address	user_type
+1	Harsh	Saboo	8555465236	hs@gmail.com	Saboo	46, xyz Nagar	1
+2	Sidharth	Jain	4526366236	sj@gmail.com	Jain	55, Jain Colony	1
+3	Aniket	Kano	8319159263	ak@gmail.com	1234521	new jain restroA	2
+4	pandyey	Kash	8319159264	pk@gmail.com	1234522	new jain restroP	2
+5	Chirag	ragu	8319159265	cr@gmail.com	1234531	new jain restroC	3
+6	shubham	shukla	8319159265	ss@gmail.com	1234532	new jain restroC	3
+7	gautam	patidar	8319159235	gp@gmail.com	1234523	gautam mess restroC	2
+
+
+Select * from Users
+. user table of all type of users
